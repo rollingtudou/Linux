@@ -6,7 +6,7 @@
 
 int main()
 {
-    printf("我是fork前的进程！我的pid是：%d\n", getpid());
+    printf("我是fork前11的进程！我的pid是：%d\n", getpid());
 
     pid_t id = fork();
 
