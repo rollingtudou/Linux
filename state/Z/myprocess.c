@@ -15,11 +15,11 @@ if(id < 0)
 }	
 else if(id == 0)
 {
-	// child 
-	while(1)
+	// child
+    int i = 5;
+	while(i--)
 	{
-		sleep(1);
-		printf("我是一个子进程！我的pid：%d，我的父进程id：%d\n",getpid(), getppid());
+        sleep(1);
 	}
 }
 else
